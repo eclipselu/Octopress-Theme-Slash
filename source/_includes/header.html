@@ -26,8 +26,11 @@
 		{% if site.twitter_user %}
 		<a class="twitter" href="http://twitter.com/{{ site.twitter_user }}" title="Twitter">Twitter</a>
 		{% endif %}
+		{% if site.weibo_user %}
+		<a class="weibo" href="http://weibo.com/{{ site.weibo_user }}/profile?topnav=1&wvr=5" title="Weibo">Weibo</a>
+		{% endif %}
 		{% if site.github_user %}
-		<a class="github" href="https://github.com/{{ site.github_user }}" title="GitHub">GitHub</a>
+		<a class="github" href="http://github.com/{{ site.github_user }}" title="GitHub">GitHub</a>
 		{% endif %}
     {% if site.pinboard_user %}
     <a class="pinboard" href="https://pinboard.in/u:{{ site.pinboard_user }}" title="Pinboard">Pinboard</a>

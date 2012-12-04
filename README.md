@@ -20,3 +20,8 @@ Have problems when installing with zsh? Try `rake install\['slash'\]` instead.
 - Resize HTML5 `video` and embedded video like `iframe`, `object` to page width automatically.
 - Supports responsive layouts. Whatever devices you use, you can get a great experience.
 - [More info…](http://zespia.tw/Octopress-Theme-Slash/)
+
+##Modification Log
+- Added sina weibo in the banner, user only need to add a global varible `weibo_user` in `_config.yml` 
+
+
